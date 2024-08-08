@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload a Video</title>
+</head>
+<body>
+    <h1>Upload a Video</h1>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <br><br>
+        <label for="screens">Select Screens:</label>
+        <br>
+        <input type="checkbox" name="screens" value="1"> Screen 1
+        <input type="checkbox" name="screens" value="2"> Screen 2
+        <input type="checkbox" name="screens" value="3"> Screen 3
+        <input type="checkbox" name="screens" value="4"> Screen 4
+        <input type="checkbox" name="screens" value="5"> Screen 5
+        <br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
